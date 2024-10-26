@@ -1,0 +1,26 @@
+﻿    <Window x:Class="TranNgapBoNho_WPF.MainWindow"
+            xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+            xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+            xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:TranNgapBoNho_WPF"
+            Icon="./assets/paw.ico"
+            mc:Ignorable="d"
+            Title="Tràn Ngập Bộ Nhớ" Height="300" Width="533" ResizeMode="NoResize"
+            Closed="Window_Closed"
+            WindowStartupLocation="CenterScreen"
+            FontFamily="assets/#Itim">
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="./assets/meow.jpg" Stretch="UniformToFill"/>
+            </Grid.Background>
+            <Button Name="ClickMeBtn" Click="ClickMeBtn_Click" Content="Nhấn vô đây đi" FontSize="40" Foreground="White" FontFamily="assets/#Itim" HorizontalAlignment="Center" Height="73" VerticalAlignment="Center" Width="279" BorderBrush="White" BorderThickness="3" FontWeight="Bold">
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                        <GradientStop Color="#FFFF8FFF" Offset="0"/>
+                        <GradientStop Color="Pink" Offset="1"/>
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </Grid>
+    </Window>

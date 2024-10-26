@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\Itim-Regular.ttf" />
+    <None Remove="assets\meow.jpg" />
+    <None Remove="assets\paw.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\Itim-Regular.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\meow.jpg" />
+    <Resource Include="assets\paw.ico" />
+  </ItemGroup>
+
+</Project>
